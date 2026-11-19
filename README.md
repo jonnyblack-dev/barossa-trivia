@@ -15,3 +15,7 @@ One page, five views (hash routing):
 The quizmaster views need a PIN. Data syncs through a Firebase Realtime Database; with no database configured the page runs in a single-browser test mode.
 
 Presenter keys: → / Space / click = next, ← = back, G = slide list, F = full screen, B = black screen.
+
+## Christmas Trivia Night 2026
+
+A second quiz lives at [`/christmas/`](https://jonnyblack-dev.github.io/barossa-trivia/christmas/) (The Red Brick Hotel, Woolloongabba, Saturday 5 December 2026). Same five views and keys, a Christmas theme, its own PIN, and its own data path (`christmas2026`) in the same Firebase database, so the two quizzes never mix.
